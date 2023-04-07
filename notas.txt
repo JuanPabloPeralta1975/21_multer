@@ -1,0 +1,11 @@
+https://github.com/codelando/dh-node-multer-instalacion
+
+en terminal npm install multer
+
+en el formulario enctype="multipart/form-data"
+
+queda <form action="/register" method="POST" enctype="multipart/form-data">
+
+en la carpeta de rutas, en el ejemplo routes/group.js const multer = require('multer');
+
+para ejecutar npm start
